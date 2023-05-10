@@ -1,0 +1,62 @@
+/*
+*Estilizando a Pagina
+*/
+#pag{
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*
+*Estilizando o Titulo
+*/
+#h1{
+    border: solid 5px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    background-color: rgb(221, 13, 13);
+    text-align: center;
+    font-style: oblique;
+    font-size: 55px;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 80px;
+    border: solid 3px;
+    border-radius: 10px;
+    background-color: rgb(39, 39, 248);
+    width: 480px;
+    padding: 5px;
+}
+
+/*
+*Estilizando a Tabela
+*/
+table{
+    width: 70%;
+    border: solid 5px;
+    margin: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+    font-size: 30px;
+}
+
+table th{
+    background-color: red;
+    border-bottom: solid 1px;
+    padding: 10px;
+}
+
+table tr:nth-child(even){
+    background-color: green;
+}
+table tr:nth-child(odd){
+    background-color: greenyellow;
+}
+
+table td{
+    padding: 10px;
+}
